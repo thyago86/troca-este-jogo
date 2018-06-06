@@ -9,6 +9,7 @@ import { HomePage } from '../pages/home/home';
 import { RegisterPage } from '../pages/register/register';
 
 
+
 @NgModule({
   declarations: [
     MyApp,
@@ -29,6 +30,7 @@ import { RegisterPage } from '../pages/register/register';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
+    
   ]
 })
 export class AppModule {}
